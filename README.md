@@ -1,1 +1,110 @@
-# Credit-Card-financial-dashboard-PowerBI
+**📊 Credit Card Weekly Dashboard - Executive Summary**
+
+---
+
+### 🌟 Project Objective:
+
+To develop a comprehensive credit card weekly dashboard that provides real-time insights into key performance metrics and trends. The goal is to empower stakeholders with actionable data to effectively monitor and optimize credit card operations.
+
+---
+
+### ⚙️ Key Steps Taken:
+
+* Cleaned and transformed raw transaction data using **Power Query**.
+* Created a custom weekly column `week_num2` for weekly insights.
+* Built a **data model** with appropriate relationships.
+* Developed **DAX measures**:
+
+  * `Total Revenue`
+  * `wow_revenue` (Week-over-week revenue change)
+  * `High Value Flag`
+* Implemented customer **segmentation and comparisons** using DAX.
+
+---
+
+### 📐 DAX Logic Highlights:
+
+* `Current_week_Revenue` & `Previous_week_Revenue`: Used to calculate WoW changes.
+* `wow_revenue`: Percentage change in revenue week-over-week.
+* `High Value Flag`: Flags users with ₹10K+ spending and 20+ transactions.
+* `AgeGroup`: Buckets users into relevant age groups.
+* `Revenue`: Combines annual fee, transaction amount, and interest.
+
+---
+
+### 🔍 Key Insights:
+
+#### 🔹 High-Performing Segments:
+
+* **Blue Card Users**:
+
+  * Revenue: ₹47M (66% of total revenue).
+  * Most active customer segment.
+
+* **Businessmen & Self-Employed**:
+
+  * Combined Revenue: ₹26M.
+  * Top revenue-generating job profiles.
+
+* **Quarterly Trend**:
+
+  * Q4 revenue up by 6% over Q3 → Indicates strong performance during festive season.
+
+#### 🔻 Low Engagement Areas:
+
+* **Low Revenue & Low Activity Customers**:
+
+  * < ₹5K revenue and < 10 transactions.
+  * Represent 40% of customer base.
+
+* **Digital Transaction Gap**:
+
+  * Online: ₹4M vs Swipe: ₹36M (↓89%).
+  * Highlights underutilization of digital channels.
+
+#### 📉 Notable Anomalies/Trends:
+
+* **July Online Transactions**: Dropped by 35% → Could be behavior change or technical issue.
+* **Feb Interest Spike**: Interest earned increased by 40% → Possible delayed repayments.
+* **Low-Income Customers**: Contributed ₹10M → 22% higher than high-income groups → Suggests greater credit reliance.
+
+---
+
+### 🔢 Business Recommendations / Next Steps:
+
+#### 📌 Strategic Actions:
+
+* **Reward High Spenders**:
+
+  * Exclusive rewards, cashback, or premium upgrades for high-value users.
+
+* **Leverage Blue Card Strength**:
+
+  * Promote loyalty programs focused on this high-contribution segment.
+
+* **Focus on Top Professions**:
+
+  * Offer business-specific solutions for businessmen and self-employed users.
+
+* **Re-engage Inactive Users**:
+
+  * Targeted campaigns (SMS/Email) for customers with low revenue or low activity.
+
+* **Expand Low-Income Credit Usage**:
+
+  * EMI programs and microcredit options for low-income high-usage users.
+
+* **Boost Q2 Revenue**:
+
+  * Launch promotional offers to balance seasonal dips and raise Q2 performance.
+
+---
+
+
+**Tool Used:** Power BI (Power Query, DAX, Data Model)
+
+---
+
+**Note:** Dashboard insights and recommendations are based on observed trends in transaction and customer behavior across multiple weeks. Continuous monitoring is advised for strategy refinement.
+
+---
