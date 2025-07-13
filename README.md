@@ -1,7 +1,7 @@
 **📊 Credit Card Weekly Dashboard - Executive Summary**
 
 ---
-
+.
 ### 🌟 Project Objective:
 
 To develop a comprehensive credit card weekly dashboard that provides real-time insights into key performance metrics and trends. The goal is to empower stakeholders with actionable data to effectively monitor and optimize credit card operations.
